@@ -1,0 +1,228 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: boder box;
+    font-family: "Roboto", sans-serif;
+}
+
+:root{
+    --heading-color: rgba(36, 36, 36, 0.927);
+}
+body{
+    margin: 0;
+    width:100%;
+}
+.container{
+    width: 80%;
+    margin: auto;
+    
+}
+.header{
+    position: relative;
+    
+}
+.image_cointainer{
+    position:absolute;
+    width:100%;
+    height: 100%;
+    overflow: hidden;
+    top: 0px;
+    left: 0px;
+    transition: 1.4s;
+    opacity: 1;
+   
+}
+.image_cointainer> img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    transform: scale(1.08);
+    max-height: -250px;
+
+}
+.nav{
+    position: absolute;
+    top: 0%;
+    color: white;
+    width: 100%;
+   
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.container-2.o{
+    padding-top: 50px;
+
+}
+.logo-container{
+    display: flex;
+    align-items: center;
+}
+.nav ul{
+    color: aliceblue;
+}
+.nav ul{
+    list-style: none;
+    padding: 5px;
+    display: flex;
+}
+.nav ul li{
+    padding: 0px 3px;
+    margin-right: 25px;
+    font-size: 20px;
+    font-weight: 300px;
+    font-family:"Calibri", sans-serif;
+
+    
+   
+}
+.nav ul li a{
+    color: white;
+    text-decoration: none;
+   
+}
+.zom-img{
+    width: 300px;
+    height: 6rem;
+    max-height: none;
+    width: 30rem;
+    position:relative;
+    background: transparent;
+
+
+}
+.zom-zom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   position:relative;
+   width: 400%;
+   padding: 150px ;
+     top: -80px;
+
+   flex-direction: column;
+   margin-left: -20%;
+   margin-right: -20%;
+
+   
+
+}
+.zom-zom >p{
+    padding-top: 50px;
+}
+.zom-heading{
+    font-size: 42px;
+    font-family:"Calibri", sans-serif;
+    
+}
+.search-ber{
+    background-color: #fff;
+    width: 100%;
+    max-width: 800px;
+    height: 55px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+   color: black;
+  
+
+
+}
+.location_logo{
+    /* background-color: #ec2323; */
+    font-size: 20px;
+    padding: 15px;
+}
+.location_logo input{
+    border: none;
+    font-size: 16.5px;
+    width: 180px;
+    height: 20px;
+    outline: none;
+
+}
+/* .fa-magnifying-glass{ */
+    
+.search_ber{
+    /* padd */
+    margin:20px;
+    /* background: #000; */
+    color: #5b5b5b;
+    font-size: 20px;
+
+
+}
+.tools{
+    /* background-color:#000; */
+    margin:-10px;
+
+}
+.search_ber input{
+    border: none;
+    /* background-color: #d41818; */
+    width: 450px;
+    font-size: 15px;
+    outline: none;
+    padding: 0 10px;
+    
+}
+
+.feature{
+    width: 30%;
+    height: auto;
+    border: 1px solid #07101d69;
+    border-radius: 11px;
+    overflow: hidden;
+    transition: 200ms;
+}
+
+.feature:hover{
+    width: 33%;
+
+}
+
+.feature > p{
+    line-height: 8px;
+    font-size: 18px;
+    /* color: black;
+    background-color: #0e0d0d; */
+
+} 
+
+.section_1{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+
+}
+
+.feature-image{
+    width: 100%;
+    height: 160px;
+    overflow: hidden;
+}
+
+.feature-image img{
+    width: 100%;
+     height: 100%;
+     object-fit: cover;
+}
+
+.feature-text{
+    padding: 25px;
+}
+
+.feature-text > h3{
+    font-size: 24px;
+    font-weight: 400;
+    color: var(--heading-color);
+}
+
+
